@@ -1,5 +1,5 @@
 /* ==========================================================================
-   YQY — personal homepage
+   LosproeOcl — personal homepage
    Typecho-inspired: white paper, hairline rules, a single blue accent.
    ========================================================================== */
 
@@ -134,14 +134,6 @@ p:last-child { margin-bottom: 0; }
   border-bottom: 1px solid var(--border);
 }
 
-.intro-name {
-  margin-bottom: 10px;
-  font-family: var(--serif);
-  font-size: 24px;
-  line-height: 1.5;
-  color: #222222;
-}
-
 .intro p:last-child {
   max-width: 40em;
   color: var(--text-soft);
@@ -173,12 +165,13 @@ p:last-child { margin-bottom: 0; }
 }
 .facts > div {
   display: grid;
-  grid-template-columns: 6.5em minmax(0, 1fr);
+  grid-template-columns: 8.5em minmax(0, 1fr);
   gap: 18px;
   padding: 11px 0;
   border-top: 1px dotted var(--border);
 }
 .facts > div:first-child { border-top: 0; padding-top: 0; }
+body[lang="en"] .facts > div { grid-template-columns: 10.5em minmax(0, 1fr); }
 .facts dt {
   font-weight: 600;
   color: #333333;
@@ -187,6 +180,29 @@ p:last-child { margin-bottom: 0; }
   margin: 0;
   color: var(--text-soft);
 }
+.facts dd strong {
+  color: #333333;
+  font-weight: 600;
+}
+
+.project-list {
+  margin: 0;
+  padding: 0;
+  max-width: 42em;
+  list-style: none;
+}
+.project-list li {
+  padding: 11px 0;
+  border-top: 1px dotted var(--border);
+}
+.project-list li:first-child { padding-top: 0; border-top: 0; }
+.project-list strong {
+  display: block;
+  margin-bottom: 2px;
+  color: #333333;
+  font-weight: 600;
+}
+.project-list span { color: var(--text-soft); }
 
 .contact-list {
   margin: 0;
@@ -196,7 +212,7 @@ p:last-child { margin-bottom: 0; }
 }
 .contact-list li {
   display: grid;
-  grid-template-columns: 6.5em minmax(0, 1fr);
+  grid-template-columns: 8.5em minmax(0, 1fr);
   gap: 18px;
   padding: 9px 0;
   border-top: 1px dotted var(--border);
@@ -315,6 +331,7 @@ p:last-child { margin-bottom: 0; }
   .site-nav .sep { display: none; }
   .intro-name { font-size: 21px; }
   .facts > div,
+  body[lang="en"] .facts > div,
   .contact-list li {
     grid-template-columns: 1fr;
     gap: 2px;

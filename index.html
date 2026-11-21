@@ -3,13 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>YQY - 个人主页</title>
-  <meta name="description" content="YQY（LosproeOcl）的个人主页：在读大学生，关注应用开发，主要学习 Java。">
+  <title>LosproeOcl - 个人主页</title>
+  <meta name="description" content="LosproeOcl 的个人主页：MSc Data, AI & Cloud 在读，关注数据工程、数据分析与可视化。">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/style.css">
+  <link rel="canonical" href="https://losproeocl.github.io/LosproeOcl/">
+  <link rel="alternate" hreflang="zh-CN" href="https://losproeocl.github.io/LosproeOcl/">
+  <link rel="alternate" hreflang="en" href="https://losproeocl.github.io/LosproeOcl/en/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="YQY - 个人主页">
-  <meta property="og:description" content="在读大学生，关注应用开发，主要学习 Java。">
+  <meta property="og:title" content="LosproeOcl - 个人主页">
+  <meta property="og:description" content="MSc Data, AI & Cloud 在读，关注数据工程、数据分析与可视化。">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
 </head>
 <body>
   <a class="skip-link" href="#main">跳到正文</a>
@@ -17,13 +22,15 @@
   <header class="site-header">
     <div class="container header-inner">
       <div>
-        <a class="site-title" href="index.html">YQY</a>
-        <p class="site-description">在读大学生 · 应用开发</p>
+        <a class="site-title" href="index.html">LosproeOcl</a>
+        <p class="site-description">MSc Data, AI &amp; Cloud · Efrei Paris</p>
       </div>
       <nav class="site-nav" aria-label="站点导航">
         <a href="#about">简介</a><span class="sep">/</span>
+        <a href="#education">教育</a><span class="sep">/</span>
         <a href="#focus">方向</a><span class="sep">/</span>
-        <a href="#contact">联系</a>
+        <a href="#contact">联系</a><span class="sep">/</span>
+        <a href="en/" hreflang="en" lang="en">EN</a>
       </nav>
     </div>
   </header>
@@ -31,32 +38,62 @@
   <main class="container layout" id="main">
     <div class="content">
       <section class="intro">
-        <p class="intro-name">YQY（LosproeOcl）</p>
-        <p>在读大学生，关注应用开发，目前主要学习 Java。本页面用于呈现个人介绍与联系方式。</p>
+        <p>先后在武汉理工大学与 Efrei Paris 学习：本科阶段专业为数据科学与大数据技术，2026 年起就读于 MSc Data, AI &amp; Cloud 项目。本页用于呈现个人介绍与联系方式。</p>
       </section>
 
       <section id="about" class="entry">
         <h2>简介</h2>
-        <p>对应用开发保持长期兴趣。现阶段以 Java 语言基础与常用类库为主要学习内容；课程中涉及数值计算与数据处理时，使用 MATLAB 完成练习。</p>
-        <p>部分练习与实践记录于 GitHub，可通过下方链接查看。</p>
+        <p>关注数据工程、数据分析与可视化，以及云计算环境下的应用实现。课程与项目中主要使用 Python、SQL、Java 与 MATLAB；大数据方向接触过 Hadoop、Hive、HBase、Kafka 与 Elasticsearch。</p>
+      </section>
+
+      <section id="education" class="entry">
+        <h2>教育</h2>
+        <dl class="facts">
+          <div>
+            <dt>2026 – 至今</dt>
+            <dd><strong>Efrei Paris</strong><br>MSc Data, AI &amp; Cloud</dd>
+          </div>
+          <div>
+            <dt>本科阶段</dt>
+            <dd><strong>武汉理工大学</strong><br>数据科学与大数据技术</dd>
+          </div>
+        </dl>
       </section>
 
       <section id="focus" class="entry">
         <h2>方向</h2>
         <dl class="facts">
           <div>
-            <dt>应用开发</dt>
-            <dd>关注应用的实现过程与基础工程实践。</dd>
+            <dt>数据工程</dt>
+            <dd>使用 Hadoop、Hive、HBase、Kafka 与 Elasticsearch 构建数据处理链路。</dd>
           </div>
           <div>
-            <dt>Java</dt>
-            <dd>当前主要学习内容，包括语言基础、面向对象与常用类库。</dd>
+            <dt>数据分析与可视化</dt>
+            <dd>使用 Python、SQL 与 BI 工具完成数据清洗、分析与看板呈现。</dd>
           </div>
           <div>
-            <dt>MATLAB</dt>
-            <dd>用于课程中的数值计算、绘图与数据处理。</dd>
+            <dt>云计算与应用开发</dt>
+            <dd>在云平台部署应用，关注基础工程实践。</dd>
           </div>
         </dl>
+      </section>
+
+      <section id="work" class="entry">
+        <h2>实践</h2>
+        <ul class="project-list">
+          <li>
+            <strong>大数据处理链路</strong>
+            <span>以 Docker Compose 编排 Kafka、Logstash、HDFS、Hive、HBase、Elasticsearch 与 Kibana，完成实时检索与离线分析。</span>
+          </li>
+          <li>
+            <strong>共享单车数据可视化</strong>
+            <span>完成数据清洗、外部数据基准、静态与交互图表，以及 BI 看板。</span>
+          </li>
+          <li>
+            <strong>云计算应用部署</strong>
+            <span>使用阿里云 SAE 部署 Python Web 应用。</span>
+          </li>
+        </ul>
       </section>
 
       <section id="contact" class="entry">
@@ -65,7 +102,11 @@
         <ul class="contact-list">
           <li>
             <span class="label">电子邮件</span>
-            <a href="mailto:publicrelations@foxmail.com">publicrelations@foxmail.com</a>
+            <a href="mailto:yuqingyang@whut.edu.cn">yuqingyang@whut.edu.cn</a>
+          </li>
+          <li>
+            <span class="label">电子邮件</span>
+            <a href="mailto:losproeocl@gmail.com">losproeocl@gmail.com</a>
           </li>
           <li>
             <span class="label">GitHub</span>
@@ -78,7 +119,7 @@
     <aside class="sidebar">
       <section class="widget">
         <h3>关于</h3>
-        <p>YQY，在读大学生。关注应用开发，主要学习 Java。</p>
+        <p>MSc Data, AI &amp; Cloud 在读，关注数据工程、数据分析与可视化。</p>
       </section>
 
       <section class="widget">
@@ -94,8 +135,9 @@
         <h3>链接</h3>
         <ul class="plain-list">
           <li><a href="https://github.com/LosproeOcl" rel="noopener">GitHub</a></li>
-          <li><a href="mailto:publicrelations@foxmail.com">邮箱</a></li>
+          <li><a href="mailto:losproeocl@gmail.com">邮箱</a></li>
           <li><a href="https://github.com/LosproeOcl/LosproeOcl" rel="noopener">源仓库</a></li>
+          <li><a href="en/" hreflang="en" lang="en">English</a></li>
         </ul>
       </section>
     </aside>
@@ -103,7 +145,7 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <span>© 2026 YQY · LosproeOcl</span>
+      <span>© 2026 LosproeOcl</span>
       <span>静态页面 · GitHub Pages</span>
     </div>
   </footer>
