@@ -1,10 +1,8 @@
-- 👋 Hi, I’m @LosproeOcl
-- 👀 I’m interested in Application Developing
-- 🌱 I’m currently learning Javalang
-- 💞️ I’m a college student
-- 📫 You can reach me by e-mail:publicrelations@foxmail.com
+# LosproeOcl
 
-<!---
-LosproeOcl/LosproeOcl is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+在读大学生，关注应用开发，目前主要学习 Java。
+
+- 个人主页：<https://losproeocl.github.io/LosproeOcl/>
+- 电子邮箱：<publicrelations@foxmail.com>
+
+课程笔记已迁出本仓库，不再随主页发布。

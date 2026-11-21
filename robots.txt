@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://losproeocl.github.io/LosproeOcl/sitemap.xml
